@@ -11,7 +11,7 @@
   "bin": { "ace": "./bin/ace" },
   "dependencies": {
     "coffee-script" : "latest",
-    "strata": "git://github.com/maccman/strata.git",
+    "strata": "git://github.com/kjacobson/strata.git",
     "fibers": "git://github.com/laverdet/node-fibers.git#master",
     "mime":   "1.2.4",
     "optimist": "0.3.1"
