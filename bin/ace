@@ -3,7 +3,8 @@
 var path = require('path'),
     fs   = require('fs'),
     App  = require('../lib/index').App,
-    optimist = require('optimist');
+    optimist = require('optimist'),
+    cs = require('coffee-script/register');
 
 // Use local ace module if available
 if (fs.existsSync('./node_modules/.bin/ace') && !global.local) {
