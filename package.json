@@ -10,6 +10,7 @@
   "main" : "./lib/index.js",
   "bin": { "ace": "./bin/ace" },
   "dependencies": {
+    "coffee-script" : "latest",
     "strata": "git://github.com/maccman/strata.git",
     "fibers": "git://github.com/laverdet/node-fibers.git#master",
     "mime":   "1.2.4",
